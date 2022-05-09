@@ -33,8 +33,7 @@ padding: 0 15px;
 
 
 .grid-list  {
-    margin-left: auto;
-    margin-right: auto;
+   
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr;
     grid-auto-rows: 100px 100px;
@@ -63,7 +62,7 @@ padding: 0 15px;
 }
 
 .box2 {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .box4 {
@@ -72,7 +71,7 @@ padding: 0 15px;
 
 
 .box5 {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .box6 {
@@ -83,7 +82,7 @@ margin-top: 30px;
 img {
     max-width: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
     vertical-align: middle;
 }
 
@@ -169,6 +168,10 @@ max-width: 50%;
     .child-grid {
         gap: 8px;
     }
+
+    .img {
+        border-radius: 20px;
+    }
     
 
     .box1 {
@@ -210,7 +213,10 @@ max-width: 50%;
         gap: 10px;
     }
     
-
+    .img {
+        border-radius: 20px;
+    }
+    
   
 
 .box1 {
