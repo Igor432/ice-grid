@@ -159,9 +159,7 @@ max-width: 50%;
 
     .container {
         max-width: 768px;
-        padding-left: 74px;
-padding-right: 74px;
-padding-left: 74px;
+ 
     }
 
     .grid-list {
@@ -202,8 +200,7 @@ padding-left: 74px;
 
     .container {
         max-width: 1280px;
-        padding-right: 74px;
-padding-left: 74px;
+  
     }
 
     .grid-list {
@@ -241,33 +238,6 @@ margin-top: 100px;
 
 }
   
-
-
-
-.left {
- 
-   /*  Animation decalaration   */
-    animation-name: moveInleft;
-    animation-duration: 3s;
-}
-
-.right {
-   
-    animation-name: moveInRight;
-    animation-duration: 3s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .fade {
