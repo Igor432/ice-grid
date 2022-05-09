@@ -72,6 +72,22 @@ img {
 max-width: 50%;
 }
 
+
+
+.gallery__image:hover {
+    z-index: 1;
+  }
+  
+  .gallery__image {
+    transition: transform 500ms;
+  }
+  
+  .gallery__image:hover  {
+    transform: scale(1.2);
+  }
+
+
+
 @media (min-width: 400px ) and (max-width:767px) {
 
     .box1 {
